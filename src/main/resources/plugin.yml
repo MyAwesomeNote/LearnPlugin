@@ -1,0 +1,4 @@
+name: Learnplugin
+version: '${version}'
+main: com.pleahmacaka.learnplugin.Learnplugin
+api-version: 1.18
