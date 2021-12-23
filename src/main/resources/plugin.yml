@@ -2,3 +2,9 @@ name: Learnplugin
 version: '${version}'
 main: com.pleahmacaka.learnplugin.Learnplugin
 api-version: 1.18
+commands:
+  명령어:
+    description: 명령어 입니다.
+    aliases: [ 멋진명령어, 왕멋진명령어 ]
+    usage: /명령어 args0 args1 ...
+    permission: LearnPlugin.awesome
