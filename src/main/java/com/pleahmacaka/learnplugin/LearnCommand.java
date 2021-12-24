@@ -22,9 +22,9 @@ public class LearnCommand implements CommandExecutor { // implements를 사용�
         * */
         if (sender instanceof Player || sender instanceof ConsoleCommandSender) { // 만약 sender(커맨드 사용자)가 Player 또는 ConsolecommandSender(콘솔)이(가) 아니면 아래 명령을 실행하지 않습니다.
             if (args.length == 0) { sender.sendMessage("명령어를 입력해주세요."); }  // 만약 args의 길이(명령어의 내용이 없으면)가 0이면 */명령어를 입력해달라는 메세지를 보냅니다.
-
-            /* `/명령어 테스트` */
-        } else if (args[0].equalsIgnoreCase("테스트")) { sender.sendMessage("테스트 성공!"); }
+        } 
+        /* `/명령어 테스트` */
+        else if (args[0].equalsIgnoreCase("테스트")) { sender.sendMessage("테스트 성공!"); }
 
         /* `/명령어 바보` */
         else if (args[0].equalsIgnoreCase("바보")) { sender.sendMessage("바보입니다.");
